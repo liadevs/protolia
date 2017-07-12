@@ -1,0 +1,34 @@
+$light: #F9F7EF;
+$stable: #FFEEF2;
+$positive: #79BB97;
+$calm: #3F474D;
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+ion-view,.pane,.view {
+	background-color: #FFEEF2;
+}
+
+body {
+	color: #3F474D;
+}
+
+body.platform-ios {
+	font-family: Lato, sans-serif;
+}
+
+.ionic-body.platform-ios {
+	font-family: Lato, sans-serif;
+}
+
+body.platform-android {
+	font-family: Lato, sans-serif;
+}
+
+.ionic-body.platform-android {
+	font-family: Lato, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,.tab-item,input,button,select,textarea {
+	font-family: inherit;
+}
+
