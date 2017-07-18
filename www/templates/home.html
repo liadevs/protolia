@@ -10,9 +10,8 @@
     <div>
       <img src="img/mascot.png" style="display: block; width: 65%; height: auto; margin-left: auto; margin-right: auto;">
     </div>
-    <div class="spacer" style="width: 320px; height: 44px;"></div>
-    <div id="home-button-bar1" class="button-bar">
-      <a ui-sref="situation()" id="home-button23" class="button button-positive button-block" onclick="update();setdate(getdate())">Start</a>
-    </div>
   </ion-content>
+  <ion-footer-bar class="footer-bar" ui-sref="situation()" onclick="update();setdate(getdate())" align-title="center">
+    <h1 class="title">Start</h1>
+  </ion-footer-bar>
 </ion-view>
