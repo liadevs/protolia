@@ -104,7 +104,7 @@ function ($scope, $stateParams, $state) {
 		$.get('https://liadevs.github.io/content/'+i+'/t.txt', function(d, s) {
 			i = ind.shift();
 			console.log(ind);
-			var inner = '<a class="list card" style="display:block;text-decoration:none;" ui-sref="situation()" onclick="setdate('+
+			var inner = '<a class="list card" style="display:block;text-decoration:none;" ui-sref="situation()" onclick="clickbutton();setdate('+
 				i+')" href="#/situation"><ion-item id="item'+i+'"ui-sref="situation()" class="item item-complex" href="#/situation"></ion-item></a>';
     		$("#card-container").append(inner);
     		$('#item'+i).append('<a class="item-content">'+d+'</a>');

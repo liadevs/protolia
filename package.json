@@ -1,7 +1,7 @@
 {
-    "name": "lia",
+    "name": "Lia",
     "version": "0.0.1",
-    "description": "An Ionic project",
+    "description": "A social skills learning platform for children with autism.",
     "dependencies": {
         "gulp": "^3.5.6",
         "gulp-concat": "^2.2.0",
